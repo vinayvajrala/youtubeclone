@@ -1,0 +1,24 @@
+/* :root {
+  --primary-text-color: #464646;
+  --secondary-text-color: #787676;
+  --primary-color: #f85301;
+  --primary-color-dark: #e85005;
+  --secondary-color: #21b39d;
+  --default-color: #ffffff;
+  --page-color: #f8f8f8;
+  --feature-color: #e9e9e980;
+  --filter-option-color: rgba(233, 233, 233);
+  --border-radius: 20px;
+  --container-padding: 15px;
+} */
+
+:root {
+  --dark-theme-background-color: #0f0f0f;
+  --dark-theme-base-color: #fff;
+  --dark-theme-text-color: #fff;
+  --dark-theme-secondary-color: #bcbcbc;
+  --dark-theme-disabled-color: #646464;
+  --dark-theme-divider-color: #3c3c3c;
+  --text-primary-color: var(--dark-theme-text-color);
+  --default-primary-color: var(--primary-color);
+}
