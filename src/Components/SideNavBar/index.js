@@ -56,6 +56,7 @@ import { LuMusic4 } from "react-icons/lu";
 import { BiMoviePlay } from "react-icons/bi";
 import { TfiCup } from "react-icons/tfi";
 import { GiHanger } from "react-icons/gi";
+import { BsBroadcast } from "react-icons/bs";
 
 const MainContainerItems = [
   {
@@ -174,7 +175,7 @@ const ExploreItems = [
   },
   {
     key: 5,
-    icon: <MdOutlineWifiTethering />,
+    icon: <BsBroadcast />,
     label: "Live",
   },
   {
@@ -310,6 +311,7 @@ const BottomButtonItems = [
 ];
 
 const SideNavBar = ({ isSideNavBarOpen, renderSideMenu }) => {
+  
   return (
     <SideNavContainer isOpen={isSideNavBarOpen}>
       <SideNavLogoMenuContainer>

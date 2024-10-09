@@ -5,9 +5,13 @@ const SideItemsContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 56px;
+  width: 64px;
   margin-left: 10px;
   transition: all 1s ease-in-out;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  z-index: 5001;
 `;
 
 const SideItem = styled.button`
@@ -34,7 +38,7 @@ const SideIcon = styled.i`
 `;
 
 const Typography = styled.p`
-  font-size: 8px;
+  font-size: 10px;
   color: white;
 `;
 
@@ -47,7 +51,7 @@ const SideNavContainer = styled.div`
   top: 10px;
   left: ${(props) => (props.isOpen ? "0px" : "-250px")};
   transition: left 1s ease;
-  z-index: 1000px;
+  z-index: 1003;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 `;
 
@@ -55,7 +59,7 @@ const SideNavItemsContainer = styled.div`
   padding-top: 10px;
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 90vh;
+  height: 93vh;
 
   &::-webkit-scrollbar {
     width: 7px;

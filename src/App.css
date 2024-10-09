@@ -8,4 +8,24 @@
 body {
   background-color: var(--dark-theme-background-color);
   /* padding-top: 70px; */
+  /* padding: 100px 0px 0px 50px; */
+  padding-top: 110px;
+  padding-left: 80px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  margin-top: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0f0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #717171;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

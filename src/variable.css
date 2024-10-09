@@ -13,7 +13,7 @@
 } */
 
 :root {
-  --dark-theme-background-color: #0f0f0f;
+  --dark-theme-background-color: rgb(15, 15, 15);
   --dark-theme-base-color: #fff;
   --dark-theme-text-color: #fff;
   --dark-theme-secondary-color: #bcbcbc;

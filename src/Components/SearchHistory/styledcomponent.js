@@ -9,7 +9,7 @@ const SearchHistoryContainer = styled.div`
   position: absolute;
   top: 58px;
   left: 26%;
-  z-index: 100;
+  z-index: 1000;
   border-radius: 10px;
   width: calc(550px * 0.9);
 `;
